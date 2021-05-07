@@ -1,5 +1,5 @@
 body {
-	background-color:white ;
+	background-color:red;
 	font-size: 1.2em;
 	color: black;
 	margin: 0;
@@ -40,7 +40,7 @@ body {
   font-size: 1.2em;
   padding: 0;
   padding-top: 0;
-  background-color: grey;
+  background-color: blue;
   text-align: center;
   position:relative; 
   margin-left: 50px;
@@ -55,38 +55,7 @@ body {
   float: left;
   font-weight: bold;
   position: relative;
-  background-color: grey;
+  background-color: blue;
   font-size: 1.8em;
 
   }
-    
- .box{
-
- 		width:auto;
-	background-color: grey;
-	text-align: center;
-	margin: 1px;
-	overflow: none;
-	height: 100%;
-}
-
-/*header */
-@media (min-width: 992px) {
-  .col-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
-}
-/*Tablet*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,.col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    margin-left: -10px;
-    width: 100%;
-  }
-  
